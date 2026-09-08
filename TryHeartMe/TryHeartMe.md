@@ -226,7 +226,8 @@ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFhQGdtYWlsLmNvbSIsInJvbGUiOiJ
 ````
 
 Al cambiar la cookie y refrescar la pagina veo que han cambiado mis creditos y mi rango asi que ahora pruebo el subdirectorio de `admin` y veo que me deja entrar y esta el objeto que nos piden. Asi que al comprarlo me da la flag.
-![[imagenes/flag.png]]
+
+![alt text](Imagenes/Flag.png)
 
 Luego volvi a probar a codificar de nuevo pero cambiando el apartado de `secret` que equivale a la firma en la web de https://www.jwt.io/ y al volver a probar vi que seguia funcionando igual asi que asi se que el servidor no comprobaba la firma.  
 ## Cosas aprendidas
